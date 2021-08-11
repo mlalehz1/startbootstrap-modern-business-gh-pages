@@ -76,11 +76,11 @@ hr {
     
 hr { 
     width: 30%;
-    linecap: round;
     margin-right: auto;
     margin-left: auto;
     background-color: #f17d3e;
 }
+
 
 hr:not([size]) {
   height: 2px;
@@ -139,7 +139,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 abbr[title],
@@ -609,7 +609,7 @@ progress {
   color: #6c757d;
 }
 img.list-icon {
-  width: 30%;
+  width: 100%;
 }
 
 
@@ -3900,6 +3900,10 @@ textarea.form-control-lg {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
+
+
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
@@ -7171,8 +7175,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 
 .pt-0 {
