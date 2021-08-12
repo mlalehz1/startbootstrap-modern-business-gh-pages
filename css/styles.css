@@ -142,6 +142,11 @@ p {
   margin-bottom: .5rem;
 }
 
+footer {
+  padding:40px 0;
+
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
@@ -7175,8 +7180,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 .pt-0 {
