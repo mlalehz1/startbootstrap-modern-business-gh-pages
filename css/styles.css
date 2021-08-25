@@ -3716,6 +3716,8 @@ textarea.form-control-lg {
   margin: 0.5rem 0;
   overflow: hidden;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
+  width: 100%;
+  background-color: #e9ecef;
 }
 
 .dropdown-item {
@@ -3731,6 +3733,12 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 0;
 }
+
+
+.dropdown-item:hover .dropdown-item {
+  display: block;
+}
+
 .dropdown-item:hover, .dropdown-item:focus {
   color: #1e2125;
   background-color: #e9ecef;
@@ -3906,9 +3914,6 @@ textarea.form-control-lg {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-
-
-
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
@@ -3922,6 +3927,7 @@ textarea.form-control-lg {
   pointer-events: none;
   cursor: default;
 }
+
 
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
