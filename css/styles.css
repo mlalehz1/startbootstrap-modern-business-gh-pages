@@ -3898,6 +3898,18 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+a:link {
+  color: #0037B4;
+
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #003762;
+  background-color: transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;
