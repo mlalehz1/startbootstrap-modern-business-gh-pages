@@ -5,42 +5,48 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Modern Business - Start Bootstrap Template</title>
+        <title>Medgen EHR</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/medgen-symbol.png" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid px-5">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo" src="assets/medgenlogo-trans.png" alt="..." />
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="products.html">Top-rated Products</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+
+                                    <li><a class="dropdown-item" href="portfolio-item.html">item</a></li>
+                                    <li><a class="dropdown-item" href="ehr.html">EHR and Billing Software</a></li>
+                                    <li><a class="dropdown-item" href="RCS.html">Revenue Cycle & Billing Services</a></li>
+                                    <li><a class="dropdown-item" href="addiction.html">Addiction Medicine EHR</a></li>
+                                    <li><a class="dropdown-item" href="obgyn.html">OB/GYN</a></li>
+                                    <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="btn btn-primary" href="http://www.medgenehr.com/demo/" role="button">Schedule a Demo</a></li>
+                            <!--<li class="nav-item"><a class="nav-link" href="http://www.medgenehr.com/demo/">Schedule a Demo</a></li>-->
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
-                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
-                                </ul>
-                            </li>
+                            <li class="nav-item"><a class="nav-link" href="blog-home.html">Blog</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -57,11 +63,11 @@
                             <div class="text-left mb-5">
                                 <h4>Certified Web-Based OB/GYN EHR</h4>
                                 <h4>Designed and created by highly recognized OB/GYN providers</h4>
-                                <p class="lead fw-normal text-muted mb-0">Medgen OB/GYN EHR is specifically designed for busy OB/GYN practices. Automated care plans eliminate stress and legal risk while improving patient outcome. OB/GYN practices face unique challenges. Not only do you need to manage long term preventative care and chronic health issues, you also need to document and track pregnancy progress and manage risks. Medgen monitors the progress of a pregnancy for you so that no test or referral is ever missed. In addition powerful care plans implemented in the system will guide you through high risk pregnancies and lets you manage and reduce the liabilities associated with such cases.</p>
+                                <p class="lead fw-normal mb-0">Medgen OB/GYN EHR is specifically designed for busy OB/GYN practices. Automated care plans eliminate stress and legal risk while improving patient outcome. OB/GYN practices face unique challenges. Not only do you need to manage long term preventative care and chronic health issues, you also need to document and track pregnancy progress and manage risks. Medgen monitors the progress of a pregnancy for you so that no test or referral is ever missed. In addition powerful care plans implemented in the system will guide you through high risk pregnancies and lets you manage and reduce the liabilities associated with such cases.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="container px-5 my-5 text-left mb-5">
+                <div class="container px-5 my-5 text-left mb-5">
                   <div class="row justify-content-md-center">
                     <div class="col-2">
                       <img class="list-icon" src="assets/obgyn.png" alt="..." width:100%;/>
@@ -69,33 +75,35 @@
                     <div class="col">
                       <h3 class="fw-bolder">Prenatal Care</h3>
                         <h4>Track OB Visits & Progress</h4>
-                        <p class="lead fw-normal text-muted">Track progress of pregnancy as well as document each visit. Graph EFW using Hadlock, Wlliams, Brenner, and Shepard. Calculate EDD and record each visit. The system will alert you of all necessary procedures, tests and more that are due for each visit. Easily document GYN or non-OB related visits. For more information, visit our contact page.</p>
+                        <p class="lead fw-normal">Track progress of pregnancy as well as document each visit. Graph EFW using Hadlock, Wlliams, Brenner, and Shepard. Calculate EDD and record each visit. The system will alert you of all necessary procedures, tests and more that are due for each visit. Easily document GYN or non-OB related visits. For more information, visit our contact page.</p>
                     </div>
                   </div>
             </div>
                     <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
+                        <div class="bg-white rounded-3 py-5 px-4 px-md-5 mb-5">
                         <div class="text-center mb-5">
                             <h2 class="fw-bolder">OB/GYN Features</h2>
                         </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-6">
                             <div class="text-left mb-4">
-                                <li class="lead fw-normal text-muted">Electronic antepartum forms</li>
-                                <li class="lead fw-normal text-muted">Electronic postpartum forms</li>
-                                <li class="lead fw-normal text-muted">Pre-visit OB questionnaires (Available in both English and Spanish)</li>
-                                <li class="lead fw-normal text-muted">EDD Calculator</li>
-                                <li class="lead fw-normal text-muted">Built-in EFW graphs</li>
-                                <li class="lead fw-normal text-muted">Ultrasound report generator</li>
-                                <li class="lead fw-normal text-muted">Ultrasound DICOM interfaces</li>
-                                <li class="lead fw-normal text-muted">Complete audit trail</li>
-                                <li class="lead fw-normal text-muted">Automated patient reminders</li>
-                                <li class="lead fw-normal text-muted">Standard care plans for high risk pregnancies</li>
-                                <li class="lead fw-normal text-muted">Patient education based on potential problems</li>
-                                <li class="lead fw-normal text-muted">Interface with your current laboratory facilities</li>
-                                <li class="lead fw-normal text-muted">Secure electronic messaging with patients</li>
+                                <li class="lead fw-normal">Electronic antepartum forms</li>
+                                <li class="lead fw-normal">Electronic postpartum forms</li>
+                                <li class="lead fw-normal">Pre-visit OB questionnaires (Available in both English and Spanish)</li>
+                                <li class="lead fw-normal">EDD Calculator</li>
+                                <li class="lead fw-normal">Built-in EFW graphs</li>
+                                <li class="lead fw-normal">Ultrasound report generator</li>
+                                <li class="lead fw-normal">Ultrasound DICOM interfaces</li>
+                                <li class="lead fw-normal">Complete audit trail</li>
+                                <li class="lead fw-normal">Automated patient reminders</li>
+                                <li class="lead fw-normal">Standard care plans for high risk pregnancies</li>
+                                <li class="lead fw-normal">Patient education based on potential problems</li>
+                                <li class="lead fw-normal">Interface with your current laboratory facilities</li>
+                                <li class="lead fw-normal">Secure electronic messaging with patients</li>
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
                 </div>
                 
