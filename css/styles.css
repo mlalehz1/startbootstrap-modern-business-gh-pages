@@ -4053,11 +4053,11 @@ a:hover {
 .logo {
   size: 50%;
   position: relative;
-  width: 170px;
+  width: 180px;
   left: 15px;
   background-size: contain;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.0rem;
+  padding-bottom: 0.0rem;
 }
 
 .navbar-nav {
@@ -4100,6 +4100,13 @@ a:hover {
     transition: none;
   }
 }
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu{ display: none; }
+  .navbar .nav-item:hover .nav-link{   }
+  .navbar .nav-item:hover .dropdown-menu{ display: block; }
+  .navbar .nav-item .dropdown-menu{ margin-top:0; }
+} 
+
 .navbar-toggler:hover {
   text-decoration: none;
 }
