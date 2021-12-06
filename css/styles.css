@@ -375,7 +375,37 @@ select:disabled {
   display: none;
 }
 
+/*table*/
+table {
+  text-align: center;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: #ffffff;
+}
+td, th {
+  border: 1px solid #999;
+  padding: 20px;
+}
+th {
+  background: #003762;
+  color: white;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+}
+.primary{
+  background-color: #000000
+}
 
+tfoot > tr  {
+  background: black;
+  color: white;
+}
+tbody > tr:hover {
+  background-color: #eeeeee;
+}
+--
 
 button,
 [type=button],
