@@ -141,6 +141,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: .5rem;
+ 
 }
 
 footer {
@@ -656,9 +657,28 @@ progress {
   font-size: 0.875em;
   color: #6c757d;
 }
+
+
 img.list-icon {
   width: 100%;
 }
+
+img.image {
+  height: auto;
+  width: 100%;
+  float: right;
+  display: block;
+  overflow: hidden;
+ 
+}
+
+#ob {
+  float: right;
+  margin: 0 0 0 15px
+}
+
+
+
 
 
 .container,
@@ -721,6 +741,7 @@ img.list-icon {
 .col {
   flex: 1 0 0%;
 }
+
 
 .row-cols-auto > * {
   flex: 0 0 auto;
@@ -7043,8 +7064,8 @@ a:hover {
 }
 
 .my-5 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important;
+  margin-top: 1.0rem !important;
+  margin-bottom: 1.0rem !important;
 }
 
 .my-auto {
@@ -7216,8 +7237,8 @@ a:hover {
 }
 
 .px-5 {
-  padding-right: 3rem !important;
-  padding-left: 3rem !important;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
 }
 
 .py-0 {
@@ -7560,6 +7581,7 @@ a:hover {
 
 .bg-dark {
   background-color: #003762 !important;
+      filter: drop-shadow(0 0 10px#e9eced);
 }
 
 .bg-body {
