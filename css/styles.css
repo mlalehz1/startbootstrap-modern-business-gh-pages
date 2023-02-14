@@ -182,7 +182,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.0rem;
 
 }
 
@@ -307,7 +307,7 @@ code,
 kbd,
 samp {
   font-family: var(--bs-font-monospace);
-  font-size: 1em;
+  font-size: 1rem;
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override;
 }
@@ -571,7 +571,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.0rem;
   font-weight: 400;
 }
 
